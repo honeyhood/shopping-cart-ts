@@ -1,0 +1,95 @@
+.itemCart {
+  display: flex;
+  margin: 1rem 1rem;
+  flex-direction: column;
+  border: solid 2px yellowgreen;
+  border-radius: 15px;
+  min-height: 390px;
+  max-width: 350px;
+}
+
+.img {
+  border-radius: 15px;
+  max-height: 205px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 1rem;
+}
+
+.name {
+  font-size: 25px;
+  color: white;
+}
+
+.price {
+  font-size: 20px;
+  color: white;
+}
+
+.addButton {
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: auto;
+  background-color: yellowgreen;
+  width: 80%;
+  padding: 0.75rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+
+  &Logic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.logicButton {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: yellowgreen;
+}
+
+.quantity {
+  color: white;
+}
+
+.deleteButton {
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: auto;
+  background-color: yellowgreen;
+  width: 60%;
+  padding: 0.4rem;
+}
+
+@media screen and (min-width: 1536px) {
+  .itemCart {
+    margin: 2rem 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .itemCart {
+    min-width: 450px;
+    min-height: 430px;
+  }
+}
