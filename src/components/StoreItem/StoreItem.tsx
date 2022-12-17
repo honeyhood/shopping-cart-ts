@@ -3,7 +3,7 @@ import { useShoppingCart } from '../../contexts/ShoppingCartContext';
 import { formatCurrency } from '../../utils/formatCurrency';
 import s from './StoreItem.module.scss';
 
-const ItemCart = ({ id, name, price, imgUrl }: ShoppingCartItem) => {
+const StoreItem = ({ id, name, price, imgUrl }: ShoppingCartItem) => {
   const {
     getItemQuantity,
     incrementCartQuantity,
@@ -55,4 +55,4 @@ const ItemCart = ({ id, name, price, imgUrl }: ShoppingCartItem) => {
   );
 };
 
-export default ItemCart;
+export default StoreItem;

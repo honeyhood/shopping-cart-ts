@@ -1,4 +1,3 @@
-import { ShoppingCartItem } from '../../@types/ShoppingCartItem';
 import { useShoppingCart } from '../../contexts/ShoppingCartContext';
 import items from '../../data/items.json';
 import { formatCurrency } from '../../utils/formatCurrency';
